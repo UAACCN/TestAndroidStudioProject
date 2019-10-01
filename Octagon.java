@@ -1,4 +1,4 @@
-public class Octagon{
+public class Octagon extends Shape{
 	private String name = "";
 	Octagon(String name){
 		this.name = name;
