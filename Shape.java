@@ -1,7 +1,5 @@
 public abstract class Shape{
 	private String color = "red";
-
-
 	private int x,y;
 	public Shape(String color){
 		this.color = color;
