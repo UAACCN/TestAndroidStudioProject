@@ -1,7 +1,20 @@
 public abstract class Shape{
-        private private color = "blue"
+
+	private String color = "Orange";
 	private int x,y;
-	public Shape(){
-		;
+	public Shape(String color){
+		this.color = color;
+	}
+	public String getColor(){
+		return this.color;
+	}
+	public void setColor(String color){
+		this.color = color;
+	}
+}
+
+public class Circle extends Shape{
+	private int x,y;
+	public Circle(){;
 	}
 }
