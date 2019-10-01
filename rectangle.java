@@ -1,7 +1,7 @@
 
-public class Octagon{
+public class Rectangle{
 	private String name = "";
-	Octagon(String name){
+	Rectangle(String name){
 		this.name = name;
 	}
 	public String getName(){
