@@ -4,3 +4,9 @@ public abstract class Shape{
 		;
 	}
 }
+
+public class Circle extends Shape{
+	private int x,y;
+	public Circle(){;
+	}
+}
